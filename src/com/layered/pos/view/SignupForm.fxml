@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:id="context" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.layered.pos.controller.SignupForm">
+   <children>
+      <Text layoutX="272.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ROBA">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Text>
+      <TextField fx:id="textEmail" layoutX="162.0" layoutY="130.0" prefHeight="44.0" prefWidth="297.0" promptText="email">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="textPassword" layoutX="162.0" layoutY="184.0" prefHeight="44.0" prefWidth="297.0" promptText="password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button layoutX="162.0" layoutY="243.0" mnemonicParsing="false" onAction="#btnRegisterNowOnAction" prefHeight="35.0" prefWidth="297.0" style="-fx-background-color: #3498db;" text="Register Now">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="162.0" layoutY="319.0" mnemonicParsing="false" onAction="#btnAlreadyHaveAnAccountOnAction" prefHeight="35.0" prefWidth="297.0" text="Already have an account">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Text layoutX="299.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OR">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="278.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SIGNUP">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
